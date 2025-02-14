@@ -1,0 +1,25 @@
+Получить текущую дату и время:
+node get-date current
+
+
+Получить текущий год:
+node get-date current --year
+
+
+Получить текущий месяц:
+node get-date current --month
+
+
+Получить текущий день:
+node get-date current --date
+
+Добавить 2 дня к текущей дате:
+node get-date add -d 2
+
+
+Вычесть 1 месяц из текущей даты:
+node get-date sub --month 1
+
+
+Запуск игры "Угадай число"
+node guess-the-number
