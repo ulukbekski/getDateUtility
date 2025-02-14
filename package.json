@@ -1,0 +1,19 @@
+{
+  "name": "larg",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "cmds":"./index.js",
+    "porn":"./getDate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
